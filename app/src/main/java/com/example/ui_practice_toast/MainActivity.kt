@@ -15,8 +15,14 @@ class MainActivity : AppCompatActivity() {
         val checkId = inputId.text.toString()
         val checkPw = inputPw.text.toString()
 
-        if (checkId == "admin@test.com" && checkPw == "qwer") {
-            Toast.makeText(this, "관리자입니다.", Toast.LENGTH_SHORT).show()
+        if (checkId == "admin@lune.com" && checkPw == "bkz**03") {
+
+            //            관리자 이름을 변수에 임시 저장.
+                val name = "lune"
+
+//            변수에 따라 다른 이름을 반영
+
+            Toast.makeText(this, "${name}관리자입니다.", Toast.LENGTH_SHORT).show()
         }
 
         else {
